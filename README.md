@@ -1,2 +1,2 @@
-# rh-operator-installer
+# rh-operator-install
 script for automatically installing redhat operators
