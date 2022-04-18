@@ -8,7 +8,8 @@ registry_data="/var/registry/data51"
 operators_list="advanced-cluster-management"
 image_name="operator-index/advanced-cluster-management:06-03-2022"
 src_image="registry.redhat.io/redhat/redhat-operator-index:v4.8"
-REG_CREDS=${XDG_RUNTIME_DIR}/containers/auth.json
+REG_CREDS=$XDG_RUNTIME_DIR/containers/auth.json
+REGISTRY_AUTH_FILE=$XDG_CONFIG_HOME/containers/auth.json
 
 #registry.redhat.io/redhat/certified-operator-index:v4.8
 #registry.redhat.io/redhat/community-operator-index:v4.8
