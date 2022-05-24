@@ -19,4 +19,3 @@ REGISTRY_AUTH_FILE=$XDG_CONFIG_HOME/containers/auth.json
 
 
 folder_name="$(echo "$image_name" | grep -Po '(?<=/).+(?=:)')"
-echo $folder_name
