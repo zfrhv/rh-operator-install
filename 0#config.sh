@@ -15,7 +15,6 @@ REGISTRY_AUTH_FILE=$XDG_CONFIG_HOME/containers/auth.json
 #registry.redhat.io/redhat/community-operator-index:v4.8
 #registry.redhat.io/redhat/redhat-marketplace-index:v4.8
 #registry.redhat.io/redhat/redhat-operator-index:v4.8
-#quay.io/operatorhubio/catalog:latest
 
 
 folder_name="$(echo "$image_name" | grep -Po '(?<=/).+(?=:)')"
