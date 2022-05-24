@@ -1,7 +1,7 @@
 
 # to find your operator name in this list, run "oc get packagemanifest" and find your operator, if you want more info use "-o yaml". put the packagemanifest in the operators_list
 
-registry_name="tmp-registry"
+registry_name="localhost"
 registry_port="5013"
 registry_data="/var/registry/data51"
 #operators_list="cic-operator,elasticsearch-eck-operator-certified"
