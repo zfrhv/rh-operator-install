@@ -13,7 +13,7 @@ spec:
   sourceType: grpc
   updateStrategy:
     registryPoll:
-      interval: 120m0s
+      interval: 1d
 EOF
 
 echo "done! check the operators list in the console!"
